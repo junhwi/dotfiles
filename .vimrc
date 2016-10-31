@@ -1,6 +1,7 @@
 set autoindent
 set shiftwidth=2
 set et
+command E Ex
 
 " Enable line numbers
 set number
