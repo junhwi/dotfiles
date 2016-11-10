@@ -9,6 +9,9 @@ brew update
 brew upgrade --all
 
 brew install bash-completion
+# add mvn auto competion
+curl -L -o $(brew --prefix)/etc/bash_completion.d/mvn https://raw.github.com/dimaj/maven-bash-completion/master/bash_completion.bash
+
 
 brew install git
 brew install git-lfs
