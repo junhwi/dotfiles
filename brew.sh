@@ -16,5 +16,7 @@ curl -L -o $(brew --prefix)/etc/bash_completion.d/mvn https://raw.github.com/dim
 brew install git
 brew install git-lfs
 
+brew cask install qlmarkdown
+
 # Remove outdated versions from the cellar.
 brew cleanup
